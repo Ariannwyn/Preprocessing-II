@@ -1,1 +1,18 @@
 // Mixins in here
+.flex(@justify, @align, @direct){
+	display: flex;
+	justify-content: @justify;
+    align-items: @align;
+    flex-direction: @direct;
+}
+
+.btn(@bgcolor, @corner, @border, @padding, @width, @fontsize, @color) {
+    background-color: @bgcolor;
+    border-radius: @corner;
+    border: @border;
+    padding: @padding;
+    width: @width;
+    font-size: @fontsize;
+    color: @color;
+}
+
